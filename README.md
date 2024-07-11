@@ -133,6 +133,8 @@ await page.getByText('Using the Grid').click();
 
 getByTestId()
 ```javascript
+// Usar ids de teste na aplicação é uma ótima prática e contribuem para uma aplicação resiliente, ainda não seja um elemento visível ao usuário
+
 await page.getByTestId('SignIn').click()
 ```
 
